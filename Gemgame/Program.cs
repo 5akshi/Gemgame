@@ -93,7 +93,7 @@ class Board
         // Initialize players
         Grid[0, 0].Occupant = "P1";
         Grid[5, 5].Occupant = "P2";
-
+         
         // Initialize gems (random positions)
         Random random = new Random();
         for (int i = 0; i < 3; i++)
