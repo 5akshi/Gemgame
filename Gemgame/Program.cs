@@ -194,7 +194,7 @@ class Game
     private Player CurrentTurn;
     private int TotalTurns;
 
-    public Game()
+    public Game() 
     {
         Board = new Board();
         Player1 = new Player("P1", new Position(0, 0));
@@ -225,7 +225,7 @@ class Game
             }
             else
             {
-                //Console.WriteLine("Invalid move. Please try again.");
+                Console.WriteLine("Invalid move. Please try again.");
             }
         }
 
