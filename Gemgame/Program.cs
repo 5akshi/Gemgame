@@ -161,6 +161,7 @@ class Board
         if (newY < 0) newY = 0;
         if (newY > 5) newY = 5;
 
+
         // Check if new position is an obstacle
         if (Grid[newX, newY].Occupant == "O")
         {
