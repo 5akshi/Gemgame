@@ -74,7 +74,7 @@ class Board
 {
     private Cell[,] Grid;
 
-    public Board()
+    public Board() 
     {
         Grid = new Cell[6, 6];
         InitializeBoard();
